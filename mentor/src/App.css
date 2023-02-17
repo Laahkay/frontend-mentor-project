@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: 'Outfit', sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-qr-code {
+  background-color: white;
+  width: 290px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 15px;
+  /* gap: 0.1rem; */
+}
+
+.card-qr-code .qr-code {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-qr-code .card-title {
+  color: black;
+  text-align: center;
+  font-weight: 500;
+}
+
+.card-qr-code .card-description {
+  color: gray;
+  text-align: center;
+}
