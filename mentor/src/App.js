@@ -8,10 +8,11 @@ function App() {
         <img src={logo} className="qr-code" alt="QR Code" />
          <h2 className="card-title">
         Improve your font-end skills by building projects
+
       </h2>
       <p className="card-description">
         Scan the QR code to visit Frontend Mentor and take your coding
-        skills to the next level
+        Skills to the next level
       </p>
       </header>
     </div>
